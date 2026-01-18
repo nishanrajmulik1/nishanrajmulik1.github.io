@@ -4,19 +4,88 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Nishan Rajmulik | Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 16px; line-height: 1.6; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin: 14px 0; }
+    .title { margin: 0 0 6px; }
+    .meta { margin: 0 0 10px; color: #444; }
+    .links a { margin-right: 14px; }
+    .tag { display: inline-block; padding: 2px 10px; border: 1px solid #ddd; border-radius: 999px; margin-right: 6px; font-size: 12px; color: #333; }
+  </style>
 </head>
 <body>
   <h1>Nishan Rajmulik</h1>
-  <p>Cybersecurity | SOC | Azure | Networking</p>
+  <p class="meta">Cybersecurity | Azure | SOC | Networking</p>
 
-  <h2>Projects</h2>
-  <ul>
-    <li><a href="https://github.com/nishanrajmulik1/microsoft-hybrid-ad">Microsoft Hybrid AD</a></li>
-    <li><a href="https://github.com/nishanrajmulik1/azure-jumpserver-lab">Microsoft Azure - JumpServer</a></li>
-    <li><a href="https://github.com/nishanrajmulik1/azure-vnet-peering-multiregion">Azure VNet Peering (Multi-Region)</a></li>
-    <li><a href="https://github.com/nishanrajmulik1/microsoft-azure-labs">Microsoft Azure Labs</a></li>
-    <li><a href="https://github.com/nishanrajmulik1/ccna-lab">CCNA LAB</a></li>
-    <li><a href="https://github.com/nishanrajmulik1/ccna-real-lab">CCNA Real Lab</a></li>
-  </ul>
+  <p class="links">
+    <a href="https://github.com/nishanrajmulik1">GitHub</a>
+    <!-- Optional: add LinkedIn -->
+    <!-- <a href="https://www.linkedin.com/in/nrajmulik">LinkedIn</a> -->
+  </p>
+
+  <h2>Featured Projects</h2>
+
+  <div class="card">
+    <h3 class="title">Microsoft Hybrid Active Directory</h3>
+    <p class="meta">On-prem AD integrated with Microsoft Entra ID using Entra Connect (Azure AD Connect) for user synchronisation.</p>
+    <span class="tag">Entra ID</span><span class="tag">Hybrid Identity</span><span class="tag">AAD Connect</span>
+    <p class="links">
+      <a href="https://github.com/nishanrajmulik1/microsoft-hybrid-ad">Repo</a>
+      <!-- Replace with your real demo link if you have it -->
+      <!-- <a href="https://youtu.be/HyVbGK06D1o">Demo</a> -->
+    </p>
+  </div>
+
+  <div class="card">
+    <h3 class="title">Azure JumpServer Architecture</h3>
+    <p class="meta">Jump host with public IP + private VMs (no public IPs) to reduce cost and improve security.</p>
+    <span class="tag">Azure VM</span><span class="tag">Networking</span><span class="tag">Security</span>
+    <p class="links">
+      <a href="https://github.com/nishanrajmulik1/azure-jumpserver-lab">Repo</a>
+      <!-- <a href="https://youtu.be/7nnGzC08V44">Demo</a> -->
+    </p>
+  </div>
+
+  <div class="card">
+    <h3 class="title">Azure VNet Peering (Multi-Region)</h3>
+    <p class="meta">Resolved cross-region VM connectivity by peering VNets between regions for private communication.</p>
+    <span class="tag">VNet Peering</span><span class="tag">Multi-Region</span><span class="tag">Routing</span>
+    <p class="links">
+      <a href="https://github.com/nishanrajmulik1/azure-vnet-peering-multiregion">Repo</a>
+      <!-- <a href="https://youtu.be/8m-lzYCTjNA">Demo</a> -->
+    </p>
+  </div>
+
+  <div class="card">
+    <h3 class="title">Microsoft Azure – General Labs</h3>
+    <p class="meta">Built and managed multiple VMs, remote access via RDP and Bastion, VNets across regions, public IP setup.</p>
+    <span class="tag">Azure</span><span class="tag">Bastion</span><span class="tag">RDP</span>
+    <p class="links">
+      <a href="https://github.com/nishanrajmulik1/microsoft-azure-labs">Repo</a>
+      <!-- <a href="https://youtube.com/yourlink">Demo</a> -->
+    </p>
+  </div>
+
+  <div class="card">
+    <h3 class="title">CCNA LAB – Enterprise Network</h3>
+    <p class="meta">VLANs, trunking, SVIs, HSRP, EtherChannel, OSPF, DHCP, and BGP simulation with topology + configs.</p>
+    <span class="tag">CCNA</span><span class="tag">OSPF</span><span class="tag">HSRP</span>
+    <p class="links">
+      <a href="https://github.com/nishanrajmulik1/ccna-lab">Repo</a>
+      <!-- <a href="https://youtu.be/Twwzwq6Z3u4">Demo</a> -->
+    </p>
+  </div>
+
+  <div class="card">
+    <h3 class="title">CCNA Real Lab – Head Office ↔ Branch Office</h3>
+    <p class="meta">Designed and connected HO and branch networks using routing + switching with end-to-end verification.</p>
+    <span class="tag">CCNA</span><span class="tag">WAN</span><span class="tag">Routing</span>
+    <p class="links">
+      <a href="https://github.com/nishanrajmulik1/ccna-real-lab">Repo</a>
+    </p>
+  </div>
+
+  <hr />
+  <p class="meta">Last updated: (edit this anytime)</p>
 </body>
 </html>
